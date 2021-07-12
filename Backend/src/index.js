@@ -4,9 +4,9 @@ const port = 2021
 const cors = require('cors')
 
 //Routes
-const userRoutes = require('../src/module/user/userRoutes')
-const adminRoutes = require('../src/module/admin/adminRoutes')
-const filmRoutes = require('../src/module/film/filmRoutes')
+const userRoutes = require('./module/user/userRoutes')
+const adminRoutes = require('./module/admin/adminRoutes')
+const filmRoutes = require('./module/film/filmRoutes')
 
 
 
